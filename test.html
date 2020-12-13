@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+<body  ><br><br>
+  
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="C:\Users\user\Pictures\lock\13MH-1300x731.jpeg" width="400xp" alt="Los Angeles">
+      </div>
+      <div class="carousel-item">
+        <img src="C:\Users\user\Pictures\lock\card.jpg" alt="Chicago">
+      </div>
+      <div class="carousel-item">
+        <img src="C:\Users\user\Pictures\lock\card.jpg" alt="New York">
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
+  </div>
+
+
+
+
+
+
+  <br><br>
+
+<div class="container ">
+  <form class="">
+    <div class="form-group">
+      <label for="email">Gamil address:</label>
+      <input type="email" class="form-control mb-1  mr-sm-2" placeholder="enter here" id="email">
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+
+    <div class="form-group">
+      <label for="pwd">password :</label>
+      <input type="password" class="form-control" placeholder="pwd" id="pwd">
+    </div>
+    
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+
+    <button  class="btn btn-outline-success"> Submit</button>
+  </form>
+
+
+</div>
+
+<br>
+<!-- navbar -->
+<nav class="navbar  navbar-expand-sm bg-light sticky-top">
+  <a href="#" class="navbar-barand">
+    <img src="C:\Users\user\Pictures\lock\thala.jpg" style="width: 70px" alt="thala">
+  </a>
+
+<ul class="navbar-nav">
+  <li class="nva-item">
+      <a href="#" class="nav-link">link 1</a>
+    </li>
+    <li class="nva-item">
+      <a href="#" class="nav-link">link 2</a>
+    </li>
+    <li class="nva-item">
+      <a href="#" class="nav-link">link 3</a>
+    </li>
+  </ul>
+</ul>
+
+<button class="navbar-toggler bg-info"   type="button" data-toggler="collapse" data-target="#nvainfo">
+  <samp class="navbar-toggler-icon"> </samp>
+</button>
+
+</nav>
+
+
+
+
+<br>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+    s
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<br>
+
+
+<!-- Nav tabs -->
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane container active" id="home">
+    varun
+  </div>
+  <div class="tab-pane container fade" id="menu1">was</div>
+  <div class="tab-pane container fade" id="menu2">hi</div>
+</div>
+
+  <br><br>
+<div class="container">
+  simple nav 
+  <ul class="nav  nav-pills">
+    <li class="item">
+      <a href="#" class="nav-link active">link1</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link">link two</a>
+    </li>
+    <li class="nav-item ">
+      <a href="#" class=" nav-link  " data-toggle="collapse" data-target="#contact">contact us</a>
+        <!-- <button class="btn nav-item " data-toggle="collapse" data-target="#contact">contact</button>       -->
+        <div id="contact" class="collapse">
+            <h1>
+              8378467
+            </h1>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<br>
+<br>
+
+<div class="container">
+  collapsible <br>
+  <button type="button" class="btn btn-outline-info " data-toggle="collapse" data-target="#datas">hideing</button>
+  <div id="datas" class="collapse">
+    <div class="jumbotron">
+      <div class="dropdown dropup">
+        
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+          dropdown
+        </button>
+        
+        <div class="dropdown-menu">
+          <h1 class="dropdown-header">dropdown header</header></h1>
+          <a class="dropdown-item"   href="#">1</a>
+          <a class="dropdown-item"  href="#">1</a>
+        </div>
+        
+      </div>  
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+
+<div class="jumbotron">
+  <ul class="list-group ">
+    <li class="list-group-item d-flex justify-content-between align-items-center">list-group-item
+      <span class="badge badge-info ">inner span</span>
+    </li>
+    <li class="list-group-item d-flex justify-content-between align-items-center">varun
+      <span class="badge badge-info ">boy</span>
+    </li>
+  </ul>
+</div>
+
+<div class="container">
+<ul class="pagination justify-content-center">
+  <li class="page-item"><a href="#" class="page-link">home</a></li>
+  <li class="page-item active"><a href="#" class="page-link">2</a></li>
+  <li class="page-item"><a href="#" class="page-link">3</a></li>
+  <li class="page-item  disabled"><a href="#" class="page-link">4</a></li>
+</ul>
+</div>
+
+<div class="container">
+  your upto
+  <div class="progress progress-sm " >
+    <div class="progress-bar progress-bar-striped progress-bar-animated"  style="width: 90%;">90%</div>
+  </div>
+</div>
+
+
+<br><br>
+<div class="container ">
+  <div class="card " style="width:300px;">
+    <!-- <div class="card-header">
+      card-headder
+    </div> -->
+    <img src="C:\Users\user\Pictures\lock\name.jpg" alt="card-img"  class="card-img-top">
+    <div class="card-body">
+      <h4 class="card-titel">Vadivelu</h4>
+
+      <p class="card-text">Some example text. Some example text.</p>
+      <a href="#" class="card-link stretched-link">stretched-link</a>
+    </div>
+    <!-- <div class="card-footer">
+      card footer
+    </div> -->
+  </div>
+</div>
+
+<div class="container">
+  <div class="card" style="width: 200px;">
+    <img src="C:\Users\user\Pictures\lock\card.jpg" alt="" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title">va</h5>
+      <p class="card-text">some example</p>
+      <a href="#" class="card-link stretched-link"></a>
+    </div>
+  </div>
+</div>
+
+  <br>
+  <div class="container">
+    <button class="btn btn-primary"  disabled>
+      <span class="spinner-border spinner-border-sm"></span>
+      loading
+    </button>
+    <br>
+    <div class="spinner-grow spinner-grow-sm"></div>
+<!--   
+  <div class="spinner-border  text-danger" >
+    <div class="spinner-grow spinner-grow-sm"></div>
+  </div><br> -->
+
+  <button class=" btn btn-outline-info btn-lg"> <strong>  success </strong>  </button>
+  <button class="btn btn-outline-dark btn-sm">failed</button>
+  <button class="btn btn-outline-warning btn-sm active">active btn</button>
+  <button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+  <button class="btn btn-primary btn-block">full width bloclk</button>
+</div>
+
+
+
+<br>
+  <div class="container " >
+
+  <div class="alert alert-info alert-dismissible">
+    <button type="submit" class="close" data-dismiss="alert">&times;</button>
+    <strong>varun</strong> is good boy 
+  </div>
+  
+  
+  <div class="alert alert-warning alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Warning!</strong> This alert box could indicate a warning that might need attention.
+  </div>
+</div>
+
+
+  <div class="jumbotron ">
+    <h1>
+      Bootstrap Tutorial
+    </h1>
+    Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive,
+    mobile-first projects on the web.
+
+  </div>
+
+  <div class="container p-1 my-3 bg-primary text-white">
+    <h1>My First Bootstrap Page</h1>
+    <p>This container has a blue background color and a white text, and some extra padding and margins.</p>
+  </div>
+
+
+<br>
+<div class="contaioner">
+  <div class="row">
+    <div class="col-sm-4 mx-auto d-block">
+      <a href="https://en.wikipedia.org/wiki/Vadivelu" target="_blank">
+        <img  class="mx-auto d-block"   src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Vadivelu_at_Trailer_%26_HD_Songs_Launch_of_Kaththi_Sandai_.jpg/330px-Vadivelu_at_Trailer_%26_HD_Songs_Launch_of_Kaththi_Sandai_.jpg" alt="" width="200" height="250">
+          <div class="caption">
+            <p>
+              Kumaravadivel Natarajan
+            </p>
+          </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<br>
+<div class="container" id="images">
+<img  src="C:\Users\user\Pictures\lock\html.jpg" class="float-right rounded-circle" alt="h" width="300" height="336">
+<img  src="C:\Users\user\Pictures\lock\vivek-gets-padma-shri-award.jpg" class="float-lift img-circle" alt="h" width="300" height="336">
+
+</div>
+<h1>bootstrap 3</h1>
+    <div class="container ">
+    <table class="table  table-striped table-bordered table-hover table-condensed table-responsive">
+      <thead > 
+        <tr>
+          <th>
+            Firstname
+          </th>
+          <th>
+            Lastname
+          </th>
+          <th>
+            Email id
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>varun</td>
+          <td>mk</td>
+          <td>mk.varun2002</td>
+        </tr>
+        <tr>
+          <td>mega</td>
+          <td>kkkk</td>
+          <td>mega2004</td>
+        </tr>
+        
+        <tr>
+          <td>bose</td>
+          <td>John</td>
+          <td>bode@gamil.com</td>
+        </tr>
+        
+        <tr class="danger">
+          <td >noanme</td>
+          <td>null</td>
+          <td>nogmail.com</td>
+        </tr>
+      </tbody>
+      </table>
+      
+    </div>
+    
+    
+    
+    
+  <br> <br>
+  <div class="container">
+    
+    <h1> <small> <small> hi from </small> </small> varun</h1>
+    <h2> Use <code> The </code> the mark <abbr title="An HTML element is defined by a start tag, some content, and an end tag.">
+      element </abbr>  to <mark class="bg-info"> highlight </mark> text.</h2>
+
+      <div>
+        <p>For 50 years, <kbd>WWf</kbd> has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+        <footer>From WWF's website</footer>
+
+      </div>
+    <dl>
+      <dt>one to four</dt>
+      <dd> 1,2,3</dd>
+    </dl>
+
+    <pre class="text-info">
+      Text in a pre element
+      is displayed in a fixed-width
+      font, and it preserves
+      both      spaces and
+      line breaks.
+    </pre>
+    <p class="text-muted">This text is muted.</p>
+  </div>
+
+  <div class="container h4 text-muted">
+
+<pre>
+
+  <p class="lead  text-info text-center"> The history of programming languages </p>
+      spans from documentation of early mechanical computers to modern tools for software development. 
+  Early programming languages were highly specialized, relying on mathematical notation and similarly obscure syntax.[1]
+  Throughout the 20th century, research in compiler theory led to the creation of high-level programming languages,
+  which use a more accessible syntax to communicate instructions. <br> <br>
+  
+</pre>    
+<br>
+
+
+</div>
+<div class="container display-5">
+
+  <strong>The first high-level programming language was Plankalkül </strong> , created by Konrad Zuse between <code>1942 and 1945</code>.
+  The first high-level language to have an associated compiler was created by Corrado Böhm in 1951,
+  for his <kbd>PhD</kbd> thesis. The first commercially available language was <abbr title="FORmula TRANslation"> FORTRAN</abbr>,
+  developed in 1956 <small> (first manual appeared in 1956, but first developed in 1954) </small>
+  by a team led by  <mark> John Backus </mark>  at IBM. 
+  <p class="text-lowercase">Lowercased text.</p>
+  
+</div>
+
+
+</body>
+</html>
